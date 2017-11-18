@@ -26,10 +26,10 @@ Allows parallel development without impacting production code.  Separation of co
 How do the diagrams help you visualize the branch structure?
 By illustrating the time domain so you don't need to imagine it from text.
 
-
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-
+Combines all the commits from each branch.  Diagram's separate branches are seen to recombine, as this is what is
+happening during a merge  i.e. all the parents of both branches are now parents of the master.
 
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
